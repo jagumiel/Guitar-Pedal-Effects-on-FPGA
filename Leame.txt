@@ -1,0 +1,24 @@
+En este comprimido están los siguientes archivos:
+
+-TFG-JA_Gumiel-Pedal_de_Efectos.pdf	(Memoria del Proyecto)
+-TFG_Stompbox-VHDL.zip			(Código de la implementación en VHDL)
+-TFG_Stompbox-Nios.zip			(Código de la implementación en C usando el procesador Nios)
+-muestras_audio.zip			(Muestras de audio recogidas en wav y convertidas a mp3 a 320kbps)
+
+===Nomenclatura de las muestras de audio:===
+
+-Samp(N)_(id)_(efecto)
+Donde N es el número de la muestra y efecto es el cambio aplicado.
+
+
+
+===Nomenclatura de efectos:====
+
+-clean		(Limpio, sonido natural)
+-dist		(Distorsión tipo hard-clipping)
+-od		(Distorsión tipo overdrive o soft-clipping)
+-trem		(Efecto trémolo)
+-delay		(Efecto delay, el audio se repite un segundo después sobre el actual)
+-echo		(Efecto eco, hay eco del segundo anterior)
+-rev		(Reverberación simple)
+-cath-rev	(Cathedral reverb, otro tipo de reverberación)

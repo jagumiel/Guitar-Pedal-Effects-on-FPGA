@@ -1,0 +1,76 @@
+Instancias para poner en el main:
+
+
+-------------BOOSTER-------------
+		--Vumeter
+		LEDR <= "00" & ch0(11 downto 4);
+		--Texto: Boost
+		HEX5<="0000000";
+		HEX4<="0000001";
+		HEX3<="0000001";
+		HEX2<="0100100";
+		HEX1<="1110000";
+		HEX0<="1111111";
+		multiplier<=std_logic_vector(resize(signed('0' & ch0(11 downto 4) & "000"),16));
+		inst5 : booster
+		port map (	sample_in => sample_in,
+				multiplier => multiplier,
+				sample_out => sample_out 	
+		);
+		
+-------------DISTOR-------------
+		LEDR <= "00" & ch0(11 downto 4);
+		--Texto: Dist
+		HEX5<="0000001";
+		HEX4<="1111001";
+		HEX3<="0100100";
+		HEX2<="1110000";
+		HEX1<="1111111";
+		HEX0<="1111111";
+		multiplier<=std_logic_vector(resize(signed('0' & ch0(11 downto 4) & "000"),16));
+		pot_distor<=std_logic_vector(resize(signed('0' & ch1(11 downto 4) & "000"),16));
+		inst5 : distortion
+		port map (	sample_in => sample_in,
+				gain => multiplier,
+				dist_pos => pot_distor,
+				sample_out => sample_out 	
+		);
+
+
+-------------OVERDRIVE-------------
+		LEDR <= "00" & ch0(11 downto 4);
+		multiplier<=std_logic_vector(resize(signed('0' & ch0(11 downto 4) & "000"),16));
+		pot_distor<=std_logic_vector(resize(signed('0' & ch1(11 downto 4) & "000"),16));
+		inst5 : overdrive
+		port map (	sample_in => sample_in,
+				gain => multiplier,
+				dist_pos => pot_distor,
+				sample_out => sample_out 	
+		);
+		
+		
+-------------TREMOLO-------------
+		--Texto: Tremolo
+		HEX5<="1110000";
+		HEX4<="1111010";
+		HEX3<="0110000";
+		HEX2<="0001001";
+		HEX1<="0000001";
+		HEX0<="1110001";
+		velocidad <= std_logic_vector(signed('0' & ch0(11 downto 4)& "0000000"));
+		LEDR <= velocidad(15 downto 6);
+		ataque <= std_logic_vector(signed('0' & ch1(11 downto 4)& "0000000"));
+		--multiplier<=std_logic_vector(resize(signed('0' & ch0(11 downto 4) & "000"),16));
+		pot_distor<=std_logic_vector(resize(signed('0' & ch1(11 downto 4) & "000"),16));
+		inst5 : tremolo
+		port map (	sample_in => sample_in,
+				LD_Sample => in_ready, --Le aviso cada vez que hay una muestra disponible (48KHz).
+				clk => CLOCK_50, --El reloj tiene que ser el del sistema.
+				cl => reset,
+				--Controles--
+				rate => velocidad,
+				atack => ataque,
+				wave => SW(1 downto 0),
+				--salida--
+				sample_out => sample_out 	
+		);

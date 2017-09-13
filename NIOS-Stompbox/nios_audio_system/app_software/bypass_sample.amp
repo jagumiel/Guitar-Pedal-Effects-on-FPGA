@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><altera_monitor_program_project version="1.0">
+    <architecture>Nios II</architecture>
+    <system>
+        <system_info filepath="true">../../nios_audio_system.sopcinfo</system_info>
+        <system_sof filepath="true">../../output_files/qsys_bypass.sof</system_sof>
+        <system_jdi filepath="true"/>
+        <cable>DE-SoC [USB-1]</cable>
+        <processor>nios2_qsys_0</processor>
+        <reset_processor_during_load>false</reset_processor_during_load>
+        <terminal>jtag_uart_0</terminal>
+    </system>
+    <program>
+        <type>C Program</type>
+        <source_files>
+            <source_file filepath="true">../qsys_bypass.c</source_file>
+        </source_files>
+        <options>
+            <compiler_flags>-g -O1 -ffunction-sections -fverbose-asm -fno-inline -mno-cache-volatile -std=c99</compiler_flags>
+            <emulate_unimpl_instructions>true</emulate_unimpl_instructions>
+            <use_small_c_library>false</use_small_c_library>
+        </options>
+        <linker_sections>
+            <linker_section name=".text">
+                <memory_device>onchip_memory2_0.s1</memory_device>
+                <base_address>0x00000000</base_address>
+                <end_address>0x00000FFF</end_address>
+                <required_section/>
+            </linker_section>
+        </linker_sections>
+    </program>
+</altera_monitor_program_project>

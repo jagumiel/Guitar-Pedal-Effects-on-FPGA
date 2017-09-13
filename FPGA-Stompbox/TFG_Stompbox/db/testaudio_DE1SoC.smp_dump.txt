@@ -1,0 +1,38 @@
+
+State Machine - |testaudio_DE1SoC|AD7928_cyclic:inst4|ep
+Name ep.sready ep.save ep.rd1 ep.rd0 ep.idle ep.conf1 ep.conf0 
+ep.conf0 0 0 0 0 0 0 0 
+ep.conf1 0 0 0 0 0 1 1 
+ep.idle 0 0 0 0 1 0 1 
+ep.rd0 0 0 0 1 0 0 1 
+ep.rd1 0 0 1 0 0 0 1 
+ep.save 0 1 0 0 0 0 1 
+ep.sready 1 0 0 0 0 0 1 
+
+State Machine - |testaudio_DE1SoC|au_out:inst3|ep
+Name ep.e6 ep.e5 ep.e4 ep.e3 ep.e2 ep.e1 ep.e0 
+ep.e0 0 0 0 0 0 0 0 
+ep.e1 0 0 0 0 0 1 1 
+ep.e2 0 0 0 0 1 0 1 
+ep.e3 0 0 0 1 0 0 1 
+ep.e4 0 0 1 0 0 0 1 
+ep.e5 0 1 0 0 0 0 1 
+ep.e6 1 0 0 0 0 0 1 
+
+State Machine - |testaudio_DE1SoC|au_in:inst2|ep
+Name ep.e5 ep.e4 ep.e3 ep.e2 ep.e1 ep.e0 
+ep.e0 0 0 0 0 0 0 
+ep.e1 0 0 0 0 1 1 
+ep.e2 0 0 0 1 0 1 
+ep.e3 0 0 1 0 0 1 
+ep.e4 0 1 0 0 0 1 
+ep.e5 1 0 0 0 0 1 
+
+State Machine - |testaudio_DE1SoC|au_setup:inst1|ep
+Name ep.e5 ep.e4 ep.e3 ep.e2 ep.e1 ep.e0 
+ep.e0 0 0 0 0 0 0 
+ep.e1 0 0 0 0 1 1 
+ep.e2 0 0 0 1 0 1 
+ep.e3 0 0 1 0 0 1 
+ep.e4 0 1 0 0 0 1 
+ep.e5 1 0 0 0 0 1 

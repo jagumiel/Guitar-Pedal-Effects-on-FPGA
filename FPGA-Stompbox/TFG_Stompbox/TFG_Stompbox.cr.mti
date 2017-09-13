@@ -1,0 +1,127 @@
+C:/altera/TFG_Stompbox/tremolo.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/altera/TFG_Stompbox/tremolo.vhd
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_SIGNED
+-- Compiling entity tremolo
+-- Compiling architecture a of tremolo
+
+} {} {}} C:/altera/TFG_Stompbox/wave_setup.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/altera/TFG_Stompbox/wave_setup.vhd
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Compiling entity wave_setup
+-- Compiling architecture a of wave_setup
+
+} {} {}} C:/altera/TFG_Stompbox/au_in.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/altera/TFG_Stompbox/au_in.vhd
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity au_in
+-- Compiling architecture a of au_in
+
+} {} {}} C:/altera/TFG_Stompbox/au_out.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/altera/TFG_Stompbox/au_out.vhd
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity au_out
+-- Compiling architecture a of au_out
+
+} {} {}} C:/altera/TFG_Stompbox/au_setup.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/altera/TFG_Stompbox/au_setup.vhd
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity au_setup
+-- Compiling architecture a of au_setup
+
+} {} {}} C:/altera/TFG_Stompbox/distortion.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/altera/TFG_Stompbox/distortion.vhd
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_SIGNED
+-- Compiling entity distortion
+-- Compiling architecture a of distortion
+
+} {} {}} C:/altera/TFG_Stompbox/testaudio_DE1SoC.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none {C:\altera\TFG_Stompbox\testaudio_DE1SoC.vhd}
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_SIGNED
+-- Compiling entity testaudio_DE1SoC
+-- Compiling architecture a of testaudio_DE1SoC
+
+} {} {}} C:/altera/TFG_Stompbox/AD7928_cyclic.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/altera/TFG_Stompbox/AD7928_cyclic.vhd
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity AD7928_cyclic
+-- Compiling architecture a of AD7928_cyclic
+
+} {} {}} C:/altera/TFG_Stompbox/overdrive.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/altera/TFG_Stompbox/overdrive.vhd
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Compiling entity overdrive
+-- Compiling architecture a of overdrive
+
+} {} {}} C:/altera/TFG_Stompbox/booster.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/altera/TFG_Stompbox/booster.vhd
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_SIGNED
+-- Compiling entity booster
+-- Compiling architecture a of booster
+
+} {} {}} C:/altera/TFG_Stompbox/display.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/altera/TFG_Stompbox/display.vhd
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity display
+-- Compiling architecture a of display
+
+} {} {}} C:/altera/TFG_Stompbox/bin_divider.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/altera/TFG_Stompbox/bin_divider.vhd
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity Division
+-- Compiling architecture Division_RTL of Division
+
+} {} {}} C:/altera/TFG_Stompbox/chiptune.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/altera/TFG_Stompbox/chiptune.vhd
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Compiling entity chiptune
+-- Compiling architecture a of chiptune
+
+} {} {}}

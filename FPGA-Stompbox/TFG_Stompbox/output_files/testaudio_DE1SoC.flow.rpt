@@ -1,0 +1,137 @@
+Flow report for testaudio_DE1SoC
+Thu Aug 31 21:17:18 2017
+Quartus Prime Version 15.1.0 Build 185 10/21/2015 SJ Standard Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Flow Summary
+  3. Flow Settings
+  4. Flow Non-Default Global Settings
+  5. Flow Elapsed Time
+  6. Flow OS Summary
+  7. Flow Log
+  8. Flow Messages
+  9. Flow Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2015 Altera Corporation. All rights reserved.
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, the Altera Quartus Prime License Agreement,
+the Altera MegaCore Function License Agreement, or other 
+applicable license agreement, including, without limitation, 
+that your use is for the sole purpose of programming logic 
+devices manufactured by Altera and sold by Altera or its 
+authorized distributors.  Please refer to the applicable 
+agreement for further details.
+
+
+
++-----------------------------------------------------------------------------------+
+; Flow Summary                                                                      ;
++---------------------------------+-------------------------------------------------+
+; Flow Status                     ; Successful - Thu Aug 31 21:17:18 2017           ;
+; Quartus Prime Version           ; 15.1.0 Build 185 10/21/2015 SJ Standard Edition ;
+; Revision Name                   ; testaudio_DE1SoC                                ;
+; Top-level Entity Name           ; testaudio_DE1SoC                                ;
+; Family                          ; Cyclone V                                       ;
+; Device                          ; 5CSEMA5F31C6                                    ;
+; Timing Models                   ; Final                                           ;
+; Logic utilization (in ALMs)     ; 112 / 32,070 ( < 1 % )                          ;
+; Total registers                 ; 162                                             ;
+; Total pins                      ; 76 / 457 ( 17 % )                               ;
+; Total virtual pins              ; 0                                               ;
+; Total block memory bits         ; 0 / 4,065,280 ( 0 % )                           ;
+; Total DSP Blocks                ; 1 / 87 ( 1 % )                                  ;
+; Total HSSI RX PCSs              ; 0                                               ;
+; Total HSSI PMA RX Deserializers ; 0                                               ;
+; Total HSSI TX PCSs              ; 0                                               ;
+; Total HSSI PMA TX Serializers   ; 0                                               ;
+; Total PLLs                      ; 0 / 6 ( 0 % )                                   ;
+; Total DLLs                      ; 0 / 4 ( 0 % )                                   ;
++---------------------------------+-------------------------------------------------+
+
+
++-----------------------------------------+
+; Flow Settings                           ;
++-------------------+---------------------+
+; Option            ; Setting             ;
++-------------------+---------------------+
+; Start date & time ; 08/31/2017 21:13:34 ;
+; Main task         ; Compilation         ;
+; Revision Name     ; testaudio_DE1SoC    ;
++-------------------+---------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                           ;
++-------------------------------------+---------------------------------------+---------------+-------------+----------------+
+; Assignment Name                     ; Value                                 ; Default Value ; Entity Name ; Section Id     ;
++-------------------------------------+---------------------------------------+---------------+-------------+----------------+
+; COMPILER_SIGNATURE_ID               ; 268749057971631.150420681406516       ; --            ; --          ; --             ;
+; EDA_OUTPUT_DATA_FORMAT              ; Vhdl                                  ; --            ; --          ; eda_simulation ;
+; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (VHDL)                ; <None>        ; --          ; --             ;
+; MAX_CORE_JUNCTION_TEMP              ; 85                                    ; --            ; --          ; --             ;
+; MIN_CORE_JUNCTION_TEMP              ; 0                                     ; --            ; --          ; --             ;
+; OUTPUT_IO_TIMING_FAR_END_VMEAS      ; Half Signal Swing                     ; --            ; --          ; --             ;
+; OUTPUT_IO_TIMING_FAR_END_VMEAS      ; Half Signal Swing                     ; --            ; --          ; --             ;
+; OUTPUT_IO_TIMING_NEAR_END_VMEAS     ; Half Vccio                            ; --            ; --          ; --             ;
+; OUTPUT_IO_TIMING_NEAR_END_VMEAS     ; Half Vccio                            ; --            ; --          ; --             ;
+; PARTITION_COLOR                     ; 16764057                              ; --            ; --          ; Top            ;
+; PARTITION_FITTER_PRESERVATION_LEVEL ; PLACEMENT_AND_ROUTING                 ; --            ; --          ; Top            ;
+; PARTITION_NETLIST_TYPE              ; SOURCE                                ; --            ; --          ; Top            ;
+; POWER_BOARD_THERMAL_MODEL           ; None (CONSERVATIVE)                   ; --            ; --          ; --             ;
+; POWER_PRESET_COOLING_SOLUTION       ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW ; --            ; --          ; --             ;
+; PROJECT_OUTPUT_DIRECTORY            ; output_files                          ; --            ; --          ; --             ;
++-------------------------------------+---------------------------------------+---------------+-------------+----------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                             ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis      ; 00:00:22     ; 1.0                     ; 912 MB              ; 00:00:32                           ;
+; Fitter                    ; 00:01:45     ; 1.0                     ; 2287 MB             ; 00:01:50                           ;
+; Assembler                 ; 00:00:20     ; 1.0                     ; 892 MB              ; 00:00:18                           ;
+; TimeQuest Timing Analyzer ; 00:00:15     ; 1.0                     ; 1192 MB             ; 00:00:13                           ;
+; EDA Netlist Writer        ; 00:00:03     ; 1.0                     ; 813 MB              ; 00:00:03                           ;
+; Total                     ; 00:02:45     ; --                      ; --                  ; 00:02:56                           ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+
+
++----------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                        ;
++---------------------------+------------------+-----------+------------+----------------+
+; Module Name               ; Machine Hostname ; OS Name   ; OS Version ; Processor type ;
++---------------------------+------------------+-----------+------------+----------------+
+; Analysis & Synthesis      ; Cuarto-PC        ; Windows 8 ; 6.2        ; x86_64         ;
+; Fitter                    ; Cuarto-PC        ; Windows 8 ; 6.2        ; x86_64         ;
+; Assembler                 ; Cuarto-PC        ; Windows 8 ; 6.2        ; x86_64         ;
+; TimeQuest Timing Analyzer ; Cuarto-PC        ; Windows 8 ; 6.2        ; x86_64         ;
+; EDA Netlist Writer        ; Cuarto-PC        ; Windows 8 ; 6.2        ; x86_64         ;
++---------------------------+------------------+-----------+------------+----------------+
+
+
+------------
+; Flow Log ;
+------------
+quartus_map --read_settings_files=on --write_settings_files=off testaudio_DE1SoC -c testaudio_DE1SoC
+quartus_fit --read_settings_files=off --write_settings_files=off testaudio_DE1SoC -c testaudio_DE1SoC
+quartus_asm --read_settings_files=off --write_settings_files=off testaudio_DE1SoC -c testaudio_DE1SoC
+quartus_sta testaudio_DE1SoC -c testaudio_DE1SoC
+quartus_eda --read_settings_files=off --write_settings_files=off testaudio_DE1SoC -c testaudio_DE1SoC
+
+
+

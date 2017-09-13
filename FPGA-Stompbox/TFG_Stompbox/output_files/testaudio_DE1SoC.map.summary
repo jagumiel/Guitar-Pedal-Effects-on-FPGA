@@ -1,0 +1,17 @@
+Analysis & Synthesis Status : Successful - Thu Aug 31 21:13:56 2017
+Quartus Prime Version : 15.1.0 Build 185 10/21/2015 SJ Standard Edition
+Revision Name : testaudio_DE1SoC
+Top-level Entity Name : testaudio_DE1SoC
+Family : Cyclone V
+Logic utilization (in ALMs) : N/A
+Total registers : 153
+Total pins : 76
+Total virtual pins : 0
+Total block memory bits : 0
+Total DSP Blocks : 1
+Total HSSI RX PCSs : 0
+Total HSSI PMA RX Deserializers : 0
+Total HSSI TX PCSs : 0
+Total HSSI PMA TX Serializers : 0
+Total PLLs : 0
+Total DLLs : 0

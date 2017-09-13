@@ -1,0 +1,623 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/modeltech64_10.5/examples
+Ead7928_cyclic
+Z0 w1482751513
+Z1 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z4 dC:/altera/TFG_Stompbox
+Z5 8C:/altera/TFG_Stompbox/AD7928_cyclic.vhd
+Z6 FC:/altera/TFG_Stompbox/AD7928_cyclic.vhd
+l0
+L20
+VeeK_V3A6>B=PR9N_KmS_g2
+!s100 MQb`jFiY^cHELL7=42_A>3
+Z7 OL;C;10.5;63
+32
+Z8 !s110 1494690396
+!i10b 1
+Z9 !s108 1494690396.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/altera/TFG_Stompbox/AD7928_cyclic.vhd|
+Z11 !s107 C:/altera/TFG_Stompbox/AD7928_cyclic.vhd|
+!i113 0
+Z12 o-work work -2002 -explicit
+Z13 tExplicit 1 CvgOpt 0
+Aa
+R1
+R2
+R3
+DEx4 work 13 ad7928_cyclic 0 22 eeK_V3A6>B=PR9N_KmS_g2
+l85
+L43
+Vb=TagZi6;6>gbQBVRM_kf1
+!s100 `E_G?:CAC91nGOzni26c20
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 0
+R12
+R13
+Eau_in
+Z14 w1478882977
+R2
+R3
+R4
+Z15 8C:/altera/TFG_Stompbox/au_in.vhd
+Z16 FC:/altera/TFG_Stompbox/au_in.vhd
+l0
+L16
+ViNLh]3bZ`X@Confdj[hBg0
+!s100 a?]GJdJLdlg`DOIf03E801
+R7
+32
+R8
+!i10b 1
+Z17 !s108 1494690395.000000
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/altera/TFG_Stompbox/au_in.vhd|
+Z19 !s107 C:/altera/TFG_Stompbox/au_in.vhd|
+!i113 0
+R12
+R13
+Aa
+R2
+R3
+DEx4 work 5 au_in 0 22 iNLh]3bZ`X@Confdj[hBg0
+l43
+L26
+VRIm25o6Jbdd=438E>35=i3
+!s100 Dj;L][A4hkYdV0Uf6>QIA1
+R7
+32
+R8
+!i10b 1
+R17
+R18
+R19
+!i113 0
+R12
+R13
+Eau_out
+Z20 w1478874249
+R2
+R3
+R4
+Z21 8C:/altera/TFG_Stompbox/au_out.vhd
+Z22 FC:/altera/TFG_Stompbox/au_out.vhd
+l0
+L15
+VfaKfJ[iek^08R_H=5`38W0
+!s100 U_hXB?<`J[Y2o25lb69:f1
+R7
+32
+R8
+!i10b 1
+R9
+Z23 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/altera/TFG_Stompbox/au_out.vhd|
+Z24 !s107 C:/altera/TFG_Stompbox/au_out.vhd|
+!i113 0
+R12
+R13
+Aa
+R2
+R3
+DEx4 work 6 au_out 0 22 faKfJ[iek^08R_H=5`38W0
+l41
+L25
+VjSDP=H:J_C1AW>`gJbahC2
+!s100 RCk9LejFljgmd?U4YjEH_2
+R7
+32
+R8
+!i10b 1
+R9
+R23
+R24
+!i113 0
+R12
+R13
+Eau_setup
+Z25 w1484334575
+R1
+R2
+R3
+R4
+Z26 8C:/altera/TFG_Stompbox/au_setup.vhd
+Z27 FC:/altera/TFG_Stompbox/au_setup.vhd
+l0
+L13
+VU7L]?m[BQGc]b8;n1nb9<2
+!s100 RBJSZKPk>JbNJX:HOJ_VA2
+R7
+32
+R8
+!i10b 1
+R9
+Z28 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/altera/TFG_Stompbox/au_setup.vhd|
+Z29 !s107 C:/altera/TFG_Stompbox/au_setup.vhd|
+!i113 0
+R12
+R13
+Aa
+R1
+R2
+R3
+DEx4 work 8 au_setup 0 22 U7L]?m[BQGc]b8;n1nb9<2
+l58
+L25
+VVHCd7YcoTBbE=6PagLjX_3
+!s100 ?l_3n97Rgj1gcEM>OT>jU2
+R7
+32
+R8
+!i10b 1
+R9
+R28
+R29
+!i113 0
+R12
+R13
+Ebooster
+Z30 w1494363972
+Z31 DPx4 ieee 16 std_logic_signed 0 22 C<aanc0R`<LWPSe[JYRP^3
+Z32 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+R2
+R3
+R4
+Z33 8C:/altera/TFG_Stompbox/booster.vhd
+Z34 FC:/altera/TFG_Stompbox/booster.vhd
+l0
+L17
+V7nUbBWEP`7iQ]>ag<T_b]2
+!s100 RYF@RP99?4Zi1>>`GOSK60
+R7
+32
+R8
+!i10b 1
+R9
+Z35 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/altera/TFG_Stompbox/booster.vhd|
+Z36 !s107 C:/altera/TFG_Stompbox/booster.vhd|
+!i113 0
+R12
+R13
+Aa
+R31
+R32
+R2
+R3
+DEx4 work 7 booster 0 22 7nUbBWEP`7iQ]>ag<T_b]2
+l30
+L28
+Vc:Rc;fGSoXjk^8aKTdh732
+!s100 eP<MT74PJ:M]LZ0[D_R2G1
+R7
+32
+R8
+!i10b 1
+R9
+R35
+R36
+!i113 0
+R12
+R13
+Echiptune
+Z37 w1490111327
+R1
+R32
+Z38 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+R2
+R3
+R4
+Z39 8C:/altera/TFG_Stompbox/chiptune.vhd
+Z40 FC:/altera/TFG_Stompbox/chiptune.vhd
+l0
+L15
+VD8NJ]B4NfcB9SgOJTPg;`0
+!s100 N5TQzo4E?zHhB0o:FYSz21
+R7
+32
+Z41 !s110 1494690397
+!i10b 1
+Z42 !s108 1494690397.000000
+Z43 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/altera/TFG_Stompbox/chiptune.vhd|
+Z44 !s107 C:/altera/TFG_Stompbox/chiptune.vhd|
+!i113 0
+R12
+R13
+Aa
+R1
+R32
+R38
+R2
+R3
+DEx4 work 8 chiptune 0 22 D8NJ]B4NfcB9SgOJTPg;`0
+l30
+L26
+V3W]01BVI4@TWi:Y>fB^0M1
+!s100 X@5L102[i;l9Y[23h:_Xz0
+R7
+32
+R41
+!i10b 1
+R42
+R43
+R44
+!i113 0
+R12
+R13
+Edisplay
+Z45 w1481370885
+R2
+R3
+R4
+Z46 8C:/altera/TFG_Stompbox/display.vhd
+Z47 FC:/altera/TFG_Stompbox/display.vhd
+l0
+L4
+V?MBTR`og_zggm0lZgJW:=0
+!s100 8Sm:Y1JT=Ul`Uh3_mVZG`2
+R7
+32
+R8
+!i10b 1
+R9
+Z48 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/altera/TFG_Stompbox/display.vhd|
+Z49 !s107 C:/altera/TFG_Stompbox/display.vhd|
+!i113 0
+R12
+R13
+Aa
+R2
+R3
+DEx4 work 7 display 0 22 ?MBTR`og_zggm0lZgJW:=0
+l21
+L16
+VXm499::>8[BdCVX^g6DlP3
+!s100 bBjKe3_Q0bVg9];NE5N1Q1
+R7
+32
+R8
+!i10b 1
+R9
+R48
+R49
+!i113 0
+R12
+R13
+Edistortion
+Z50 w1494367556
+R31
+R32
+R2
+R3
+R4
+Z51 8C:/altera/TFG_Stompbox/distortion.vhd
+Z52 FC:/altera/TFG_Stompbox/distortion.vhd
+l0
+L17
+VlzDHWLU0Anhb>C9?7KEHW2
+!s100 NlE]^if8D0Mb2gfSIQY^I2
+R7
+32
+R41
+!i10b 1
+R9
+Z53 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/altera/TFG_Stompbox/distortion.vhd|
+Z54 !s107 C:/altera/TFG_Stompbox/distortion.vhd|
+!i113 0
+R12
+R13
+Aa
+R31
+R32
+R2
+R3
+DEx4 work 10 distortion 0 22 lzDHWLU0Anhb>C9?7KEHW2
+l42
+L29
+VD]KjRhC0>DN@@j9gA?L612
+!s100 NL;MBkeZBb?TA=>]BV87]0
+R7
+32
+R41
+!i10b 1
+R9
+R53
+R54
+!i113 0
+R12
+R13
+Artl
+R38
+R32
+R2
+R3
+DEx4 work 10 distortion 0 22 =a3dS0R;Fc3nb48Nh`ee12
+l22
+L17
+VmcKlRY3UV03]?DfZzXE6D2
+!s100 V:W2G]]U`UOKUzL98T>Q=3
+R7
+32
+!s110 1482775845
+!i10b 1
+!s108 1482775845.000000
+R53
+R54
+!i113 0
+R12
+R13
+w1482775842
+Edivision
+Z55 w1488623975
+R38
+R32
+R2
+R3
+R4
+Z56 8C:/altera/TFG_Stompbox/bin_divider.vhd
+Z57 FC:/altera/TFG_Stompbox/bin_divider.vhd
+l0
+L6
+V<WCHE^9Mk^:@H<_BbB[R^3
+!s100 3d4iA`6SU<mSTfm3@8nKz0
+R7
+32
+R41
+!i10b 1
+R42
+Z58 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/altera/TFG_Stompbox/bin_divider.vhd|
+Z59 !s107 C:/altera/TFG_Stompbox/bin_divider.vhd|
+!i113 0
+R12
+R13
+Adivision_rtl
+R38
+R32
+R2
+R3
+DEx4 work 8 division 0 22 <WCHE^9Mk^:@H<_BbB[R^3
+l34
+L19
+VAcTlDf]GCTBaZ7JMgP?bH2
+!s100 elR_=QY^a?gTa1DEI^=if3
+R7
+32
+R41
+!i10b 1
+R42
+R58
+R59
+!i113 0
+R12
+R13
+Eoverdrive
+Z60 w1494367326
+R1
+R32
+R38
+R2
+R3
+R4
+Z61 8C:/altera/TFG_Stompbox/overdrive.vhd
+Z62 FC:/altera/TFG_Stompbox/overdrive.vhd
+l0
+L17
+V4d?jkE=clXBjooHiQe^hm3
+!s100 mOCmgzRSK@]TQKB7F5gDC0
+R7
+32
+R41
+!i10b 1
+R42
+Z63 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/altera/TFG_Stompbox/overdrive.vhd|
+Z64 !s107 C:/altera/TFG_Stompbox/overdrive.vhd|
+!i113 0
+R12
+R13
+Aa
+R1
+R32
+R38
+R2
+R3
+DEx4 work 9 overdrive 0 22 4d?jkE=clXBjooHiQe^hm3
+l43
+L29
+Vo:MKUk08IbhFF;`kC`59c3
+!s100 BP@]oe5I:>5f0iaUeTY4K3
+R7
+32
+R41
+!i10b 1
+R42
+R63
+R64
+!i113 0
+R12
+R13
+Etestadc_cyclic_de1soc
+Z65 w1481299206
+R1
+R2
+R3
+R4
+Z66 8C:\altera\TFG_Stompbox\testADC_cyclic_DE1SoC.vhd
+Z67 FC:\altera\TFG_Stompbox\testADC_cyclic_DE1SoC.vhd
+l0
+L5
+VbSFXmB77FhUcj:XVJzg6]1
+!s100 4S5TPTSPUK`9?AfjA9XS21
+R7
+32
+Z68 !s110 1481299228
+!i10b 1
+Z69 !s108 1481299227.000000
+Z70 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:\altera\TFG_Stompbox\testADC_cyclic_DE1SoC.vhd|
+Z71 !s107 C:\altera\TFG_Stompbox\testADC_cyclic_DE1SoC.vhd|
+!i113 0
+R12
+R13
+Aa
+R1
+R2
+R3
+DEx4 work 21 testadc_cyclic_de1soc 0 22 bSFXmB77FhUcj:XVJzg6]1
+l46
+L17
+V3LOEO=]k?N67XN?F7Y4NC2
+!s100 iLU60OP2oBORz[4WKDdzc0
+R7
+32
+R68
+!i10b 1
+R69
+R70
+R71
+!i113 0
+R12
+R13
+Etestaudio_de1soc
+Z72 w1494692084
+R32
+R31
+R1
+R2
+R3
+R4
+Z73 8C:\altera\TFG_Stompbox\testaudio_DE1SoC.vhd
+Z74 FC:\altera\TFG_Stompbox\testaudio_DE1SoC.vhd
+l0
+L6
+V6PPT=M=SD@MkclFnVSY0b3
+!s100 K[O32`Hn]YHZK_?66^R590
+R7
+32
+Z75 !s110 1494692089
+!i10b 1
+Z76 !s108 1494692088.000000
+Z77 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:\altera\TFG_Stompbox\testaudio_DE1SoC.vhd|
+Z78 !s107 C:\altera\TFG_Stompbox\testaudio_DE1SoC.vhd|
+!i113 0
+R12
+R13
+Aa
+R32
+R31
+R1
+R2
+R3
+Z79 DEx4 work 16 testaudio_de1soc 0 22 6PPT=M=SD@MkclFnVSY0b3
+l165
+L34
+V;7BQnSN>>z_XC0n1HIPTO1
+!s100 4n@=6L60?4oIK]G5D=`C40
+R7
+32
+R75
+!i10b 1
+R76
+R77
+R78
+!i113 0
+R12
+R13
+Etremolo
+Z80 w1494367232
+R31
+R32
+R2
+R3
+R4
+Z81 8C:/altera/TFG_Stompbox/tremolo.vhd
+Z82 FC:/altera/TFG_Stompbox/tremolo.vhd
+l0
+L17
+VhD^P`G54i766Y6<CDH40K2
+!s100 0REg`idYQTfH4Cc?RJG;[1
+R7
+32
+R41
+!i10b 1
+R42
+Z83 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/altera/TFG_Stompbox/tremolo.vhd|
+Z84 !s107 C:/altera/TFG_Stompbox/tremolo.vhd|
+!i113 0
+R12
+R13
+Aa
+R31
+R32
+R2
+R3
+DEx4 work 7 tremolo 0 22 hD^P`G54i766Y6<CDH40K2
+l76
+L34
+VH1D79CBcf34^7V0X4bd_e2
+!s100 BbC83E2`o2?1[oHn[d?k]2
+R7
+32
+R41
+!i10b 1
+R42
+R83
+R84
+!i113 0
+R12
+R13
+Ewave_setup
+Z85 w1490042276
+R1
+R32
+R38
+R2
+R3
+R4
+Z86 8C:/altera/TFG_Stompbox/wave_setup.vhd
+Z87 FC:/altera/TFG_Stompbox/wave_setup.vhd
+l0
+L18
+V[IDP@?^:Ecdl_NYKIizib0
+!s100 km<aYUdeZLcR]iE]lekI73
+R7
+32
+R41
+!i10b 1
+R42
+Z88 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/altera/TFG_Stompbox/wave_setup.vhd|
+Z89 !s107 C:/altera/TFG_Stompbox/wave_setup.vhd|
+!i113 0
+R12
+R13
+Aa
+R1
+R32
+R38
+R2
+R3
+DEx4 work 10 wave_setup 0 22 [IDP@?^:Ecdl_NYKIizib0
+l49
+L34
+VGD>118Jz_HlK]0Jf6hnQz1
+!s100 mAJ@hgn9?n@cLTOFD@eGG1
+R7
+32
+R41
+!i10b 1
+R42
+R88
+R89
+!i113 0
+R12
+R13

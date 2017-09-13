@@ -1,0 +1,126 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2015 Altera Corporation. All rights reserved.
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, the Altera Quartus Prime License Agreement,
+the Altera MegaCore Function License Agreement, or other 
+applicable license agreement, including, without limitation, 
+that your use is for the sole purpose of programming logic 
+devices manufactured by Altera and sold by Altera or its 
+authorized distributors.  Please refer to the applicable 
+agreement for further details.
+*/
+(header "symbol" (version "1.1"))
+(symbol
+	(rect 0 0 320 384)
+	(text "nios_audio_system" (rect 104 -1 181 11)(font "Arial" (font_size 10)))
+	(text "inst" (rect 8 368 20 380)(font "Arial" ))
+	(port
+		(pt 0 72)
+		(input)
+		(text "adc_ready_export" (rect 0 0 74 12)(font "Arial" (font_size 8)))
+		(text "adc_ready_export" (rect 4 61 100 72)(font "Arial" (font_size 8)))
+		(line (pt 0 72)(pt 128 72)(line_width 1))
+	)
+	(port
+		(pt 0 112)
+		(input)
+		(text "audio_in_export[15..0]" (rect 0 0 86 12)(font "Arial" (font_size 8)))
+		(text "audio_in_export[15..0]" (rect 4 101 136 112)(font "Arial" (font_size 8)))
+		(line (pt 0 112)(pt 128 112)(line_width 3))
+	)
+	(port
+		(pt 0 192)
+		(input)
+		(text "channel0_export[15..0]" (rect 0 0 88 12)(font "Arial" (font_size 8)))
+		(text "channel0_export[15..0]" (rect 4 181 136 192)(font "Arial" (font_size 8)))
+		(line (pt 0 192)(pt 128 192)(line_width 3))
+	)
+	(port
+		(pt 0 232)
+		(input)
+		(text "channel1_export[15..0]" (rect 0 0 87 12)(font "Arial" (font_size 8)))
+		(text "channel1_export[15..0]" (rect 4 221 136 232)(font "Arial" (font_size 8)))
+		(line (pt 0 232)(pt 128 232)(line_width 3))
+	)
+	(port
+		(pt 0 272)
+		(input)
+		(text "clk_clk" (rect 0 0 27 12)(font "Arial" (font_size 8)))
+		(text "clk_clk" (rect 4 261 46 272)(font "Arial" (font_size 8)))
+		(line (pt 0 272)(pt 128 272)(line_width 1))
+	)
+	(port
+		(pt 0 312)
+		(input)
+		(text "reset_reset_n" (rect 0 0 56 12)(font "Arial" (font_size 8)))
+		(text "reset_reset_n" (rect 4 301 82 312)(font "Arial" (font_size 8)))
+		(line (pt 0 312)(pt 128 312)(line_width 1))
+	)
+	(port
+		(pt 0 352)
+		(input)
+		(text "sample_ready_export" (rect 0 0 88 12)(font "Arial" (font_size 8)))
+		(text "sample_ready_export" (rect 4 341 118 352)(font "Arial" (font_size 8)))
+		(line (pt 0 352)(pt 128 352)(line_width 1))
+	)
+	(port
+		(pt 0 152)
+		(output)
+		(text "audio_out_export[15..0]" (rect 0 0 92 12)(font "Arial" (font_size 8)))
+		(text "audio_out_export[15..0]" (rect 4 141 142 152)(font "Arial" (font_size 8)))
+		(line (pt 0 152)(pt 128 152)(line_width 3))
+	)
+	(drawing
+		(text "adc_ready" (rect 69 43 192 99)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "export" (rect 133 67 302 144)(font "Arial" (color 0 0 0)))
+		(text "audio_in" (rect 80 83 208 179)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "export" (rect 133 107 302 224)(font "Arial" (color 0 0 0)))
+		(text "audio_out" (rect 72 123 198 259)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "export" (rect 133 147 302 304)(font "Arial" (color 0 0 0)))
+		(text "channel0" (rect 78 163 204 339)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "export" (rect 133 187 302 384)(font "Arial" (color 0 0 0)))
+		(text "channel1" (rect 80 203 208 419)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "export" (rect 133 227 302 464)(font "Arial" (color 0 0 0)))
+		(text "clk" (rect 113 243 244 499)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "clk" (rect 133 267 284 544)(font "Arial" (color 0 0 0)))
+		(text "reset" (rect 99 283 228 579)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "reset_n" (rect 133 307 308 624)(font "Arial" (color 0 0 0)))
+		(text "sample_ready" (rect 47 323 166 659)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "export" (rect 133 347 302 704)(font "Arial" (color 0 0 0)))
+		(text " nios_audio_system " (rect 234 368 582 746)(font "Arial" ))
+		(line (pt 128 32)(pt 192 32)(line_width 1))
+		(line (pt 192 32)(pt 192 368)(line_width 1))
+		(line (pt 128 368)(pt 192 368)(line_width 1))
+		(line (pt 128 32)(pt 128 368)(line_width 1))
+		(line (pt 129 52)(pt 129 76)(line_width 1))
+		(line (pt 130 52)(pt 130 76)(line_width 1))
+		(line (pt 129 92)(pt 129 116)(line_width 1))
+		(line (pt 130 92)(pt 130 116)(line_width 1))
+		(line (pt 129 132)(pt 129 156)(line_width 1))
+		(line (pt 130 132)(pt 130 156)(line_width 1))
+		(line (pt 129 172)(pt 129 196)(line_width 1))
+		(line (pt 130 172)(pt 130 196)(line_width 1))
+		(line (pt 129 212)(pt 129 236)(line_width 1))
+		(line (pt 130 212)(pt 130 236)(line_width 1))
+		(line (pt 129 252)(pt 129 276)(line_width 1))
+		(line (pt 130 252)(pt 130 276)(line_width 1))
+		(line (pt 129 292)(pt 129 316)(line_width 1))
+		(line (pt 130 292)(pt 130 316)(line_width 1))
+		(line (pt 129 332)(pt 129 356)(line_width 1))
+		(line (pt 130 332)(pt 130 356)(line_width 1))
+		(line (pt 0 0)(pt 320 0)(line_width 1))
+		(line (pt 320 0)(pt 320 384)(line_width 1))
+		(line (pt 0 384)(pt 320 384)(line_width 1))
+		(line (pt 0 0)(pt 0 384)(line_width 1))
+	)
+)
