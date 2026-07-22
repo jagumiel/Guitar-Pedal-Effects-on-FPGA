@@ -1,47 +1,64 @@
-# Windows image file caches
-Thumbs.db
-ehthumbs.db
-
-# Folder config file
-Desktop.ini
-
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
-
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
-
-# Windows shortcuts
-*.lnk
-
-# =========================
-# Operating System Files
-# =========================
-
-# OSX
-# =========================
-
+# Operating-system files
 .DS_Store
 .AppleDouble
 .LSOverride
-
-# Thumbnails
 ._*
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
 
-# Files that might appear in the root of a volume
-.DocumentRevisions-V100
-.fseventsd
-.Spotlight-V100
-.TemporaryItems
-.Trashes
-.VolumeIcon.icns
+# Editor temporary files
+*~
+*.swp
+*.swo
 
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
+# Quartus Prime compilation databases
+**/db/
+**/incremental_db/
+**/output_files/
+**/greybox_tmp/
+**/.qsys_edit/
+**/tmp-clearbox/
+
+# ModelSim / Questa generated files
+**/work/
+**/simulation/modelsim/
+*.wlf
+vsim.wlf
+transcript
+*.cr.mti
+
+# Quartus reports and transient files
+*.qws
+*.rpt
+*.summary
+*.smsg
+*.done
+*.jdi
+*.pin
+*.qmsg
+*_pin_model_dump.txt
+tcl_stacktrace.txt
+
+# FPGA programming files
+*.sof
+*.pof
+*.jic
+*.rbf
+*.cdf
+
+# Nios II build products
+*.elf
+*.srec
+*.o
+*.obj
+*.d
+*.debuginfo
+*.regmap
+**/Debug/
+**/Release/
+
+# Keep project sources and reproducibility files:
+# *.vhd, *.vhdl, *.v, *.sv, *.c, *.h
+# *.qpf, *.qsf, *.qsys, *.qip, *.sdc, *.tcl
